@@ -37,3 +37,19 @@
     color: #ff7c7c;
     font-size: 1.7em;
 }
+
+.etiquette p:hover{
+    background-color: #ff7c7c;
+    cursor: pointer;
+}
+
+.entry-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-header{
+    display: none;
+}
