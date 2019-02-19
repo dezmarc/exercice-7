@@ -11,3 +11,29 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-enfant
 */
+
+.site-header{
+    background-color: #212121;
+}
+
+.site-branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-description{
+    color: #fafafa;
+}
+
+.site-description:hover{
+    color: #ff7c7c;
+    cursor: pointer;
+}
+
+.site-title a:link, .site-title a:visited{
+    color: #ff7c7c;
+    font-size: 1.7em;
+}
