@@ -53,3 +53,10 @@
 .entry-header{
     display: none;
 }
+.galleriePerso{
+    border: 5px solid #ff7c7c;
+}
+
+.blocks-gallery-item{
+    margin-bottom: 0;
+}
