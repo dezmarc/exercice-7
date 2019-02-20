@@ -12,6 +12,11 @@
  Text Domain:  twenty-nineteen-enfant
 */
 
+.site-content{
+    background-color: #212121;
+    border-top: 1em solid #fafafa;
+}
+
 .site-header{
     background-color: #212121;
 }
