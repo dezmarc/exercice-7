@@ -76,3 +76,22 @@
 .blocks-gallery-item{
     margin-bottom: 0;
 }
+
+.citationPerso{
+	color: #fff;
+	transition: 1s;
+}
+
+.citationPerso:hover{
+    background-color: crimson;
+}
+
+.imageChateau{
+	border: 5px solid crimson;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.imageChateau:hover{
+	filter: grayscale(0%);
+}

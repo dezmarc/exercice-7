@@ -462,6 +462,29 @@ template {
   margin-bottom: 0;
 }
 
+.citationPerso {
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.citationPerso:hover {
+  background-color: crimson;
+}
+
+.imageChateau {
+  border: 5px solid crimson;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.imageChateau:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
 /*--------------------------------------------------------------
 # animation
 --------------------------------------------------------------*/
