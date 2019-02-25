@@ -14,17 +14,16 @@
     0% {
             transform: scale(1) rotateZ(0);
       }
-      50% {
-            transform: scale(2) rotateZ(180deg);
-      }
       100% {
             transform: scale(1) rotateZ(360deg);
       }
 }
 
 @keyframes anim2 {
-    0%   {background-color: yellow;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: red;}
+    0% {
+        transform: rotate3d(1, 1, 0, 0deg);
+      }
+      100% {
+        transform: rotate3d(1, 1, 0, 360deg);
+      }
 }
