@@ -474,6 +474,11 @@ template {
           animation: anim1 2s ease-in;
 }
 
+.classeAnim2 {
+  -webkit-animation: anim2 2s ease-out;
+          animation: anim2 2s ease-out;
+}
+
 @-webkit-keyframes anim1 {
   0% {
     background-color: red;
@@ -501,6 +506,36 @@ template {
   }
   100% {
     background-color: green;
+  }
+}
+
+@-webkit-keyframes anim2 {
+  0% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
   }
 }
 /*# sourceMappingURL=style.css.map */
