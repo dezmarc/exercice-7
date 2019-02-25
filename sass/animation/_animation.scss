@@ -1,0 +1,14 @@
+.site-branding .site-title{
+    color: red;
+}
+
+.classeAnim1{
+    animation: anim1 2s ease-in;
+}
+
+@keyframes anim1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}

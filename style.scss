@@ -17,6 +17,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Variable
 # mixins-master
 # Normalize
+# Animation
 # Typography
 # Elements
 # Forms
@@ -33,3 +34,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # layout
 --------------------------------------------------------------*/
 @import "sass/layout/layout";
+
+/*--------------------------------------------------------------
+# animation
+--------------------------------------------------------------*/
+@import "sass/animation/animation";

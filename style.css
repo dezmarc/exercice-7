@@ -17,6 +17,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Variable
 # mixins-master
 # Normalize
+# Animation
 # Typography
 # Elements
 # Forms
@@ -459,5 +460,47 @@ template {
 
 .blocks-gallery-item {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# animation
+--------------------------------------------------------------*/
+.site-branding .site-title {
+  color: red;
+}
+
+.classeAnim1 {
+  -webkit-animation: anim1 2s ease-in;
+          animation: anim1 2s ease-in;
+}
+
+@-webkit-keyframes anim1 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
 }
 /*# sourceMappingURL=style.css.map */
